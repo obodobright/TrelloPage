@@ -50,6 +50,7 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  flex-wrap: wrap;
 `;
 const Container = styled.div`
   width: 100%;

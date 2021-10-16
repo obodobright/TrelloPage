@@ -51,6 +51,7 @@ const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   background: #eeebfd;
+  flex-wrap: wrap;
 `;
 const Container = styled.div`
   width: 100%;
