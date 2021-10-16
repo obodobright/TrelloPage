@@ -2,12 +2,12 @@ import React from "react";
 import styled from "styled-components";
 // import Country from "./COUNTRY/country";
 // import Nav from "./COUNTRY/nav";
-import Home from "./Disney/Home";
-
+// import Home from "./Disney/Home";
+import TrelloHome from "./Trello/component/home";
 const App = () => {
   return (
     <Container>
-      <Home />
+      <TrelloHome />
     </Container>
   );
 };

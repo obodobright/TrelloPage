@@ -11,6 +11,10 @@
 # production
 /build
 
+/.COUNTRY
+
+/.Disney
+/
 # misc
 .DS_Store
 .env.local
