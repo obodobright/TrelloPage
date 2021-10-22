@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { ImTrello } from "react-icons/im";
 
-const Nav = () => {
+const Nav = ({ bg, bs }) => {
   return (
-    <Container>
+    <Container bg={bg} bs={bs}>
       <Wrapper>
         <Logo>
           <ImTrello />
@@ -69,5 +69,11 @@ const Wrapper = styled.div`
 const Container = styled.div`
   width: 100%;
   height: 70px;
-  background: transparent;
+  background: ${({ bg }) => (bg ? "white" : "transparent")};
+  box-shadow: ${({ bs }) => (bs ? " 2px 2px 2px 1px rgba(0, 0, 0, 0.1);" : "transparent")};
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  transition: all 350ms;
 `;

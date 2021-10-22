@@ -25,7 +25,6 @@ export default Hero;
 const ContentHeader = styled.div`
   font-size: 40px;
   font-weight: bold;
-  font-family: ;
 `;
 const ContentDesc = styled.div`
   font-size: 18px;
@@ -52,6 +51,7 @@ const Wrapper = styled.div`
   align-items: center;
   background: #eeebfd;
   flex-wrap: wrap;
+  padding-top: 40px;
 `;
 const Container = styled.div`
   width: 100%;
